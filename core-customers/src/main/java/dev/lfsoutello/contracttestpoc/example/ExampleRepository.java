@@ -1,4 +1,4 @@
-package dev.lfsoutello.simpleservicetemplate.example;
+package dev.lfsoutello.contracttestpoc.example;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

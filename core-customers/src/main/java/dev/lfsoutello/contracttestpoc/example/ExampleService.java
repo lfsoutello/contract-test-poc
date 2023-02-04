@@ -1,6 +1,6 @@
-package dev.lfsoutello.simpleservicetemplate.example;
+package dev.lfsoutello.contracttestpoc.example;
 
-import dev.lfsoutello.simpleservicetemplate.exception.ExampleNotFoundException;
+import dev.lfsoutello.contracttestpoc.exception.ExampleNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
