@@ -9,6 +9,7 @@ import java.util.Collections;
 import java.util.List;
 
 @Entity
+@Table(name = "_order")
 public class Order {
    @Id
    @Getter
@@ -16,7 +17,7 @@ public class Order {
    @GeneratedValue
    private Long id;
 
-   @OneToMany(mappedBy = "order", cascade = CascadeType.ALL, orphanRemoval = true)
+   @OneToMany(mappedBy = "order")
    private List<OrderItem> items = new ArrayList<>();
 
    public void addItem(OrderItem item) {
