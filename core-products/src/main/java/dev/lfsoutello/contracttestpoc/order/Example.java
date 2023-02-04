@@ -1,4 +1,4 @@
-package dev.lfsoutello.contracttestpoc.example;
+package dev.lfsoutello.contracttestpoc.order;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 @Setter
 @Getter
 @Entity
-public class Order {
+public class Example {
    @Id
    @GeneratedValue
    private Long id;

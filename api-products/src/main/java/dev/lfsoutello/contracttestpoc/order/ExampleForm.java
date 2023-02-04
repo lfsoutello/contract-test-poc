@@ -1,4 +1,4 @@
-package dev.lfsoutello.contracttestpoc.example;
+package dev.lfsoutello.contracttestpoc.order;
 
 import lombok.Getter;
 import lombok.Setter;

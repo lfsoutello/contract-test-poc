@@ -1,4 +1,4 @@
-package dev.lfsoutello.contracttestpoc.example;
+package dev.lfsoutello.contracttestpoc.order;
 
 import dev.lfsoutello.contracttestpoc.exception.ExampleNotFoundException;
 import lombok.RequiredArgsConstructor;
