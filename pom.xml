@@ -19,8 +19,10 @@
     </properties>
 
     <modules>
-        <module>core</module>
-        <module>api</module>
+        <module>core-customers</module>
+        <module>core-orders</module>
+        <module>api-customers</module>
+        <module>api-orders</module>
     </modules>
 
     <dependencies>
