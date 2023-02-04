@@ -9,13 +9,13 @@
 		<version>1.0.0</version>
 	</parent>
 
-	<artifactId>api-customers</artifactId>
+	<artifactId>api-products</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
 		<dependency>
 			<groupId>dev.lfsoutello</groupId>
-			<artifactId>core-customers</artifactId>
+			<artifactId>core-products</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 

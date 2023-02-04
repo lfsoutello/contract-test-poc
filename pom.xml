@@ -19,9 +19,9 @@
     </properties>
 
     <modules>
-        <module>core-customers</module>
+        <module>core-products</module>
         <module>core-orders</module>
-        <module>api-customers</module>
+        <module>api-products</module>
         <module>api-orders</module>
     </modules>
 

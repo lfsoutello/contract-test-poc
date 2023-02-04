@@ -9,7 +9,7 @@
 		<version>1.0.0</version>
 	</parent>
 
-	<artifactId>core-customers</artifactId>
+	<artifactId>core-products</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>

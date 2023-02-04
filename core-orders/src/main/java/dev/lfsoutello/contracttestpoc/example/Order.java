@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 @Setter
 @Getter
 @Entity
-public class Example {
+public class Order {
    @Id
    @GeneratedValue
    private Long id;
