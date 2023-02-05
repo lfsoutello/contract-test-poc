@@ -1,7 +1,6 @@
 package dev.lfsoutello.contracttestpoc.product;
 
 import dev.lfsoutello.contracttestpoc.domains.order.CreateOrderItemInput;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -9,11 +8,10 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
-@AllArgsConstructor
 public class OrderItemForm {
-    private final Long productId;
+    private Long productId;
 
-    private final int quantity;
+    private int quantity;
 
     public CreateOrderItemInput toCreateOrderItemInput() {
         return new CreateOrderItemInput(productId, quantity);

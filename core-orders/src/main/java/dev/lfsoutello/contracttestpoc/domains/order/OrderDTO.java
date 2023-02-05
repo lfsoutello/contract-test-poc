@@ -16,4 +16,9 @@ public class OrderDTO {
         id = order.getId();
         items = new ArrayList<>(order.getItems().stream().map(OrderItemDTO::new).toList());
     }
+
+    public OrderDTO(Long id, List<OrderItemDTO> items) {
+        this.id = id;
+        this.items = items;
+    }
 }

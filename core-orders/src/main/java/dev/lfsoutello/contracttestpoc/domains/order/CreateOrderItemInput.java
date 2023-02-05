@@ -1,3 +1,12 @@
 package dev.lfsoutello.contracttestpoc.domains.order;
 
-public record CreateOrderItemInput(Long productId, int quantity) {}
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+
+@Getter
+@RequiredArgsConstructor
+public class CreateOrderItemInput {
+    private final Long productId;
+
+    private final int quantity;
+}

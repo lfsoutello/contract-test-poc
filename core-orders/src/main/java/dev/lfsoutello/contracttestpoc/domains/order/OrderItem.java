@@ -20,8 +20,4 @@ public class OrderItem {
     private BigDecimal unitPrice;
 
     private int quantity;
-
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "order_id")
-    private Order order;
 }

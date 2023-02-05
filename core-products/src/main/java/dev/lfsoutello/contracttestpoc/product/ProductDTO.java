@@ -11,6 +11,7 @@ import java.math.BigDecimal;
 @ToString
 public class ProductDTO {
     private final Long id;
+
     private final String name;
 
     private final BigDecimal price;

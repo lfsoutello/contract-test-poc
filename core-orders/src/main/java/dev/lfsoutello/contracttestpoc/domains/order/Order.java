@@ -17,7 +17,8 @@ public class Order {
    @GeneratedValue
    private Long id;
 
-   @OneToMany(mappedBy = "order")
+   @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    @JoinColumn(name = "order_id")
    private List<OrderItem> items = new ArrayList<>();
 
    public void addItem(OrderItem item) {
