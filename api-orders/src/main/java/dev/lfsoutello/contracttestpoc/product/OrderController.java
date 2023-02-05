@@ -1,4 +1,4 @@
-package dev.lfsoutello.contracttestpoc.order;
+package dev.lfsoutello.contracttestpoc.product;
 
 import dev.lfsoutello.contracttestpoc.domains.order.OrderDTO;
 import dev.lfsoutello.contracttestpoc.domains.order.OrderService;

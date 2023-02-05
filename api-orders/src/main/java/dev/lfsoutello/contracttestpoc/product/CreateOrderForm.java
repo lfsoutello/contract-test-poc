@@ -1,4 +1,4 @@
-package dev.lfsoutello.contracttestpoc.order;
+package dev.lfsoutello.contracttestpoc.product;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

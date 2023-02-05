@@ -1,8 +1,8 @@
-package dev.lfsoutello.contracttestpoc.order;
+package dev.lfsoutello.contracttestpoc.product;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ExampleRepository extends JpaRepository<Example, Long> {
+public interface ProductRepository extends JpaRepository<Product, Long> {
 }

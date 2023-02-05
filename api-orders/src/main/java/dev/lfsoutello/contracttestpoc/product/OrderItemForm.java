@@ -1,4 +1,4 @@
-package dev.lfsoutello.contracttestpoc.order;
+package dev.lfsoutello.contracttestpoc.product;
 
 import dev.lfsoutello.contracttestpoc.domains.order.CreateOrderItemInput;
 import lombok.AllArgsConstructor;
