@@ -13,5 +13,8 @@ Contract.make {
             price: 100.0
         )
         status 200
+        headers {
+            contentType("application/json")
+        }
     }
 }

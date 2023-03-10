@@ -12,10 +12,6 @@
 	<artifactId>api-products</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<properties>
-		<spring-cloud-contract.version>4.0.1</spring-cloud-contract.version>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>dev.lfsoutello</groupId>
@@ -26,12 +22,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-contract-verifier</artifactId>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
@@ -45,9 +35,10 @@
 			<plugin>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
-				<version>${spring-cloud-contract.version}</version>
+				<version>4.0.1</version>
 				<extensions>true</extensions>
 				<configuration>
+					<testFramework>JUNIT5</testFramework>
 					<baseClassForTests>
 						dev.lfsoutello.contracttestpoc.BaseTest
 					</baseClassForTests>
